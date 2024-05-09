@@ -4,7 +4,7 @@ class Ship():
         """initialize the ship and its starting positon"""
         self.screen=screen
         # loding the iamge of battle_ship
-        self.image=pygame.image.load('D:\TEMPERORY\mistershaft PYTHON\invasion\img\ship.bmp')
+        self.image=pygame.image.load('D:\TEMPERORY\mistershaft PYTHON\invasion\Alien-Invasion-game\ship.bmp')
         self.rect= self.image.get_rect()
         self.screen_rect = screen.get_rect()
          
